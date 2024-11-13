@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat Imatge</title>
+    <style>
+        /* Estils bàsics per a les imatges */
+        img {
+            width: 300px;
+            height: auto;
+            margin: 10px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+        }
+
+        /* Estil per a l'element amb imatge de fons */
+        .background-image {
+            width: 100%;
+            height: 200px;
+            background-image: url('imatge-fons.jpg');
+            /* Imatge local com a fons */
+            background-size: cover;
+            background-position: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Inserció d'Imatges en HTML5</h1>
+
+    <!-- Imatge des d'una URL externa -->
+    <img src="https://monkeyworlds.com/wp-content/uploads/Informacion_sobre_los_monos.jpg.webp" alt="Imatge externa de demostració"
+        title="Aquesta és una imatge externa de demostració">
+
+    <!-- Imatge local emmagatzemada en la mateixa carpeta -->
+    <img src="mono.png" alt="Imatge local de demostració" title="Aquesta és una imatge emmagatzemada localment">
+
+    <!-- Element amb una imatge com a fons -->
+    <div class="background-image" title="Aquest div utilitza una imatge de fons local"></div>
+
+</body>
+
+</html>
